@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 6fr 0.5fr;
+}
+
+.header{
+    background-color: rgb(230, 215, 192);
+}
+
+.main{
+    background-color: rgb(147, 186, 221);
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+
+.main button{
+    width: 120px;
+    height: 1.4rem;
+    border-radius: 5px;
+    margin: 15px;
+    justify-self: flex-end;
+    margin-right: 30px;
+}
+
+.main .collection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,0.20fr));
+}
+
+
+
+.bookFormat{
+    height: 200px;
+    background-color: rgb(210, 226, 226);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+
+.footer{
+    background-color: rgba(133, 150, 165, 0.774);
+    text-align: center;
+
+}
+
+
+dialog form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30vw;
+    height: 200px;
+}

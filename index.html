@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Library</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>My Library</h1>
+
+        </div>
+        
+        <div class="main">
+            <button id="addBook">Add Book</button>
+
+            <div class="collection">
+
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                <span>created by: <em>Zapzapzap</em></span>
+            </footer>
+        </div>
+    </div>
+
+    <dialog>
+        <form method="dialog">
+            
+            <div class="input 1">
+                <label for="bookTitle">Book Title: </label>
+                <input type="text" id="bookTitle" required>
+            </div>
+
+            <div class="input 2">
+                <label for="bookAuthor">Book Author: </label>
+                <input type="text" id="bookAuthor" required>
+            </div>
+
+            <div class="input 3">
+                <label for="bookPages">Number of pages: </label>
+                <input type="number" id="bookPages" required>
+            </div>
+
+            <div class="buttons">
+                <button id="cancelBtn">Cancel</button>
+                <button id="confirmBtn" >Add</button>
+            </div>
+
+
+
+        </form>
+    </dialog>
+    
+    <script src="./script.js"></script>
+
+</body>
+</html>
